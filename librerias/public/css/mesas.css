@@ -1,0 +1,79 @@
+.contenedor-mesa img{
+    width: 100px;
+    height: 80px;
+}
+.ocupada{
+    background: #752222;
+    display: flex;
+    margin: 2%;
+    margin-left: auto;
+    left: 4%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.ocupada:hover{
+    background: #c02222;
+    color: black;   
+}
+
+.libre{
+    background: #307522;
+    display: flex;
+    margin: 2%;
+    margin-left: auto;
+    left: 4%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    color: white;   
+}
+
+.libre:hover{
+    background: #3ec522;
+    color: black;   
+}
+
+.alerta{
+    background: #ac9410;
+    display: flex;
+    margin: 2%;
+    margin-left: auto;
+    left: 4%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    color: white; 
+}
+
+.alerta:hover{
+    background: #f09f09;
+    color: black;   
+}
+
+
+table{
+    font-size: 12pt;
+    width: 100%;
+    border: 5px solid black;
+    
+}
+
+table th{
+    text-align: center;
+    padding: 10px;
+    background: #9C640C   ;
+    color:black ;
+    border: 2px solid black;
+}
+table tr:nth-child(odd){
+    background: rgba(189, 189, 189, 0.37);
+}
+table td{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    background-color:#F4E3C8;
+    border: 2px solid black;
+
+}

@@ -1,0 +1,7 @@
+body{
+	background-image:url(../../images/patern/ocean.jpg);
+	background-repeat:repeat;
+	}
+div[data-target] > div {
+	background: url(../../images/patern/ocean.jpg) repeat;
+	}	

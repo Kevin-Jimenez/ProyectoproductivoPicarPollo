@@ -1,0 +1,243 @@
+::selection {
+	color: #FFF;
+	background: #be0048;
+}
+a {
+color: #C53169;
+}
+a:hover, a:focus{
+color: #be0048;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+background-color: #be0048;
+}
+.rating-star {
+background: url('../../images/icon/star1.png') 0 -16px;
+}
+.icon-arrow-right:before{
+background: url(../../images/icon/botton_arrow1.png) no-repeat;
+}
+.close{
+color: #C53169;
+text-shadow: 0 1px 0 #C53169;
+}
+.close:hover, .close:focus{
+color: #be0048;
+}
+.modal-content{
+border: 1px solid #be0048;
+box-shadow: 0px 0px 7px 0px #be0048 !important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current{
+background: #be0048;
+}
+.rock_menu ul li a:after{
+background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #be0048, rgba(0, 0, 255, 0) 100%);
+background: -moz-radial-gradient(50% 8%, ellipse closest-side, #be0048, rgba(0, 0, 255, 0) 100%);
+background: -ms-radial-gradient(50% 8%, ellipse closest-side, #be0048, rgba(0, 0, 255, 0) 100%);
+background: -o-radial-gradient(50% 8%, ellipse closest-side, #be0048, rgba(0, 0, 255, 0) 100%);
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+color: #be0048;
+border-color: #be0048;
+}
+.rock_service:hover > .rock_service_icon > svg{
+fill: #be0048;
+}
+.rock_service:hover > .rock_service_icon{
+border-color:#be0048;
+}
+.rock_service:hover > .rock_service_read_more > a{
+color: #be0048;
+}
+.rock_service:hover > .rock_service_read_more > a > svg{
+fill: #be0048;
+}
+.rock_service:hover > .rock_service_read_more{
+border-bottom: 2px solid #be0048;
+}
+.rock_heading p{
+color: #be0048;
+}
+.rock_heading h1:after{
+border-bottom: 1px solid #be0048;
+}
+.label-default{
+color: #be0048;
+}
+.rock_event .rock_event_tab ul li a.active p{
+color: #be0048;
+}
+.rock_event .rock_event_tab ul li:hover{
+border-left: 2px solid #be0048;
+}
+.rock_event .rock_event_tab{
+border-right: 2px solid #be0048;
+}
+.rock_event .rock_event_tab ul li:hover a{
+color: #be0048;
+}
+.rock_event .rock_event_tab ul li a.active:before{
+border-left: 10px solid #be0048;
+}
+.rock_event .rock_event_tab ul li a:hover:before{
+border-left: 10px solid #be0048;
+}
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h1{
+color: #be0048;
+}
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h4{
+color: #be0048;
+}
+.rock_social ul li a:hover{
+background: #be0048;
+}
+.rock_event_time ul li a:hover{
+border-left: 2px solid #be0048;
+}
+.photo_link a:hover{
+color: #be0048;
+border-color: #be0048;
+}
+.photo_link a:hover i{
+color: #be0048;
+}
+.rock_club_photo_detail{
+background: #be0048;
+}
+.rock_slider_button:hover{
+border-color: #be0048;
+}
+.rock_audio_player .rock_audio_player_title .track_artist{
+color: #be0048;
+}
+#rock_track_playlist_slider_next:hover i{
+border-color: #be0048;
+color: #be0048;
+}
+#rock_track_playlist_slider_prev:hover i{
+border-color: #be0048;
+color: #be0048;
+}
+.rock_footer h3{
+color: #be0048;
+}
+.rock_twitter_feed ul li i{
+background: #be0048;
+}
+.rock_twitter_feed ul li .rock_feed{
+border-left: 2px solid #be0048;
+}
+.rock_menu_toggle{
+border: 1px solid #be0048;
+}
+.rock_pager ul li:last-child a{
+color: #be0048;
+}
+.form-control:hover, .form-control:focus{
+border-color: #be0048;
+}
+.rock_categories ul li a:hover{
+color: #be0048;
+}
+.blog_entry_meta ul li a i{
+color: #be0048;
+}
+.btn-arrow:hover{
+border-color: #be0048 !important;
+color: #be0048 !important;
+}
+.rock_tag ul li a:hover{
+border-color: #be0048;
+color: #be0048;
+}
+.rock_pagination ul li.active a{
+color: #be0048;
+border-color: #be0048;
+}
+.rock_pagination ul li a:hover{
+color: #be0048;
+border-color: #be0048;
+}
+.rock_comment:hover{
+border-color: #be0048;
+}
+.rock_comment:hover a.btn{
+border-color: #be0048;
+}
+.rock_event_date .event_date h1{
+color: #be0048;
+}
+.rock_event_date .event_date p{
+color: #be0048;
+}
+.rockon_service:hover .rock_service_icon svg{
+fill: #be0048;
+}
+.rockon_service:hover .rock_service_icon{
+border-color: #be0048;
+}
+.rockon_service:hover h3{
+color: #be0048;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+background-color: #be0048;
+}
+.btn-link{
+color: #C53169;
+}
+.btn-link:hover, .btn-link:focus{
+color: #be0048;
+}
+.pricing:hover h4{
+color: #be0048;
+}
+.pricing-content li i{
+color: #be0048;
+}
+.rock_404 h1{
+color: #be0048;
+}
+.rock-icon-list .fa-hover a:hover{
+background-color: #be0048;
+}
+.main_gallery_item_popup h1{
+color: #be0048;
+}
+.main_gallery_item_popup h4{
+color: #be0048;
+}
+
+
+
+@media (max-width: 767px) and (min-width: 480px){
+
+.rock_menu ul{
+border: 1px solid #be0048;
+}
+.rock_menu ul li a:hover{
+background: #be0048;
+}
+.rock_menu ul li ul{
+background: #C53169;
+}
+.rock_menu ul li ul li a:hover{
+background: #be0048;
+}
+}
+
+@media (max-width: 479px){
+
+.rock_menu ul{
+border: 1px solid #be0048;
+}
+.rock_menu ul li a:hover{
+background: #be0048;
+}
+.rock_menu ul li ul{
+background: #C53169;
+}
+.rock_menu ul li ul li a:hover{
+background: #be0048;
+}
+}

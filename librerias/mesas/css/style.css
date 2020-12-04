@@ -1,0 +1,249 @@
+
+h1{
+	text-align: center;
+	color: white;
+}
+/* hola*/
+.rock_heading_div {
+	width: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.rock_heading h1 {
+	display: inline-block;
+	margin-top:60px;
+	margin-bottom: 50px;
+	position: relative;
+	color: white;
+}
+.rock_heading h1:after {
+	content: "";
+	position: absolute;
+	top: 58px;
+	left: 50%;
+	margin-left: -50px;
+	border-bottom: 1px solid  white;
+	width: 100px;
+	height: 1px;
+	text-align: center;
+}
+.rock_heading p {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 20px;
+	color:  white;
+	margin-left: -10px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+.rock_divider {
+	background-color: white;
+	height: 1px;
+	width: 100%;
+	padding: 0;
+	margin: 10px auto;
+}
+.rock_margin_10 {
+	margin: 10px auto;
+}
+.rock_margin_20 {
+	margin: 20px auto;
+}
+.rock_margin_30 {
+	margin: 30px auto;
+}
+.rock_padding_10 {
+	padding: 10px 0px;
+}
+.rock_padding_20 {
+	padding: 20px 0px;
+}
+.rock_padding_30 {
+	padding: 30px 0px;
+}
+.btn-arrow {
+	border: 1px solid #fff !important;
+	color: #fff;
+	padding: 10px 30px !important;
+	overflow: hidden;
+	position: relative;
+}
+.btn-arrow:active {
+	border-color: rgba(204, 68, 34, 0.521) !important;
+	color:  white !important;
+}
+.btn-arrow:hover {
+	border-color:  white !important;
+	color:  white !important;
+}
+.btn-arrow:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+/* Button 4a */
+.btn-4a:before {
+	left: -20px;
+	top: 12px;
+}
+.btn-4a:hover:before {
+	left: 5%;
+}
+.icon-arrow-right:before {
+	content: "";
+	width: 20px;
+	height: 50px;
+	background: url(../images/icon/botton_arrow.png) no-repeat;
+}
+.btn-default-arrow {
+	color: inherit;
+	background-color: transparent;
+	border-color: #FFF;
+	background-image: url(../images/icon/botton_arrow.png);
+	background-position: right center;
+	background-size: 100% 100%;
+}	
+
+/*---------------------book table start---------------------*/	
+.rock_book_table_main {
+	width: 100%;
+	float: left;
+	background: gray;
+	margin: 30px 0px 50px 0px;
+	-webkit-box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+   -moz-box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+    box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+}
+.rock_book_table {
+	padding: 10px;
+}
+.rock_table_1 {
+	width: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+	padding: 10px;
+}
+.rock_table_1 img {
+	width: 100%;
+}
+.table_overlay {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	cursor: pointer;
+}
+.rock_book_table:hover .table_overlay {
+	background: rgba(204, 68, 34, 0.521);
+}
+.rock_book_table.active .table_overlay {
+	background: rgba(204, 68, 34, 0.521);
+}
+.rock_table_1.active .table_overlay {
+	background: rgba(204, 68, 34, 0.521);
+}
+.rock_table_close{
+	border:1px solid #fff;
+	border-radius:2px;
+	width:15px;
+	height:15px;
+	line-height:10px;
+	text-align:center;
+	cursor:pointer;
+	position:absolute;
+	right:5px;
+	top:5px;
+	display:none;
+	}
+.table_overlay p {
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -12px;
+	margin-left: -10px;
+}
+.booking_instruction{
+	color: white;
+}
+form {
+	width: 80%;
+	height: 100%; 
+	color: #fff;
+	background: rgb(56, 55, 55);
+	padding: 30px;
+	margin-bottom: 80px;
+	-webkit-box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+   -moz-box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+    box-shadow: 3px 21px 23px 4px rgba(0,0,0,0.75);
+}
+img{
+	width: 40%;
+	
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    display: block;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto 5px auto;
+}
+form input{
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	border-left:5px solid rgba(204, 68, 34, 0.521) ;
+	border-right:5px solid rgba(204, 68, 34, 0.521) ;
+	height: 50;
+
+}
+
+
+.crear_pedido{
+	margin-left: 40%;
+	margin-top: 10%;
+	width: 20% ;
+	height: 14%;
+}
+
+.form_pedido{
+	margin-left: 12%;
+	margin-top: 3%;
+	width: 76%;
+}
+
+.contenedor_p{
+	margin-left: 30%;
+	margin-top: auto;
+	position: absolute;
+	height: 75%;
+	width: 40%;
+}
+.centro{
+	text-align: center;
+}
+

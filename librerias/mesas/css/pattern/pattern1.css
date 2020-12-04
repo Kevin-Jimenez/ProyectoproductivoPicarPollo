@@ -1,0 +1,7 @@
+body{
+	background-image:url(../../images/patern/chalkboard.jpg);
+	background-repeat:repeat;
+	}
+div[data-target] > div {
+	background: url(../../images/patern/chalkboard.jpg) repeat;
+	}		

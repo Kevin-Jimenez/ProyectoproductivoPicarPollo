@@ -1,0 +1,276 @@
+/* estilos para los formualrios de registro */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover { 
+    text-decoration: none;
+ }
+.form_register{
+    width: 50%;
+    margin: auto;
+}
+
+.form_product{
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.form_update{
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    color: black;
+    height: 8px;
+    width: 50%;
+}
+.alertS{
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+}
+.asunto{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+form{
+    background: #752222;
+    border: 2px double #000000;
+    padding: 4%;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+form .boton{
+    width: 50%;
+}
+
+label{
+    display: block;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto 5px auto;
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notItemOne option:first-child{
+    display: none;
+}
+
+.Aregistro{
+    width: 100%;
+    background: #f0b514c4;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.Aregistro p{
+    padding: 10px;
+}
+
+/* estilos para lista de USUARIO */
+
+
+table{
+    font-size: 12pt;
+    width: 100%;
+    border: 5px solid black;
+    
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background: #9C640C   ;
+    color:black ;
+    border: 2px solid black;
+}
+table tr:nth-child(odd){
+    background: rgba(189, 189, 189, 0.37);
+}
+table td{
+    text-align: center;
+    padding: 10px;
+    background-color:#F4E3C8;
+    border: 2px solid black;
+
+}
+
+/* Estilos Eliminar*/
+.data_delete{
+    text-align: center;
+}
+.data_delete h2{
+    font-size: 12pt;
+}
+.data_delete span{
+    font-weight: bold;
+    color: #4f72d4;
+    font-size: 12pt;
+}
+.btn_cancel,.btn_ok{
+    width: 124px;
+    background: green;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px;
+}
+.btn_cancel{
+    background: brown;
+}
+.btn_cancel:hover{
+    background: brown;
+    color: white;
+}
+
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notBlock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+#tbl_list_productos img{
+	width: 50px;
+}
+.imgProductoDelete{
+	width: 175px;
+}
+/* Lista PRODUCTOS*/
+.img_producto{
+    width: 60px;
+}
+.btn_ok:hover{
+    background:green;
+    color: white;
+}
+.data_delete form{
+    background: initial;
+    margin: auto;
+    padding: 20px 50px;
+    border: 0;
+}
+
+/* PAGINADOR */
+.paginador ul{
+    padding: 15px;
+    list-style: none;
+    background: white;
+    margin-top: 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+.paginador a, .pageSelected{
+    color: black;
+    border: 3px double black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 40px;
+}
+.paginador a:hover{
+    background: #ddd;
+}
+.pageSelected{
+    color: white;
+    background: brown;
+    border: 2px double black;
+}
+/* Estilos para el buscador*/
+
+.form_search{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 1%;
+    display: flex;
+    float: right;
+    background: initial;
+    padding: 10px;
+    border-radius: 10px;
+    border:3px double rgb(134, 134, 134);
+}
+.form_search .btn_search {
+    background: brown;
+    color: white;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+
+}

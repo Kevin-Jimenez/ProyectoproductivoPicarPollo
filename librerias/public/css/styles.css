@@ -1,0 +1,218 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+   
+}
+
+nav {
+    background-color: #1e1a1a;
+    position: fixed !important;
+    top: 0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: red !important;
+    box-shadow:0px 7px 10px 0px rgba(225, 46, 46, 0.75);
+    text-shadow: 0px 7px 10px 0px rgba(225, 46, 46, 0.75);
+}
+
+nav .navbar-brand {
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    color:red;
+    font-family: garamond; src: url('garamond-oblique.ttf'); font-style:oblique;
+}
+
+nav .navbar-toggler-icon {
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 0.2rem;
+}
+
+nav .navbar-nav .nav-item2 {
+    font-size: 20px;
+    margin-left: 105px;
+}
+
+nav .navbar-nav .nav-item {
+display: inline-block;
+height: 100%;
+padding-top: 7px;
+font-size: 18px;
+min-width: 20%;
+text-align: center;
+/*background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4AJkFkb2JlAGTAAAAAAQMAFQQDBgoNAAABmwAAAb0AAAHvAAACEv/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8IAEQgAKAABAwERAAIRAQMRAf/EAHoAAQEBAAAAAAAAAAAAAAAAAAMEBgEBAAAAAAAAAAAAAAAAAAAAABABAQEBAQAAAAAAAAAAAAAAABEgAxMRAAMBAAAAAAAAAAAAAAAAACABkTISAQAAAAAAAAAAAAAAAAAAACATAQADAAAAAAAAAAAAAAAAACDwwfH/2gAMAwEAAhEDEQAAAcGShhBn/9oACAEBAAEFAvXoqqr/2gAIAQIAAQUCz//aAAgBAwABBQLP/9oACAECAgY/Aj//2gAIAQMCBj8CP//aAAgBAQEGPwLTo//aAAgBAQMBPyHfEP/aAAgBAgMBPyE//9oACAEDAwE/IT//2gAMAwEAAhEDEQAAEDBJ/9oACAEBAwE/EJRZD//aAAgBAgMBPxA//9oACAEDAwE/ED//2Q==);*/
+transition: all .3s ease;
+text-decoration: none;
+color: #fff;
+font-weight: 120;
+margin-left: 70px;
+}
+
+nav .navbar-nav .nav-item:hover {
+    color: red;
+}
+
+nav .navbar-nav .nav-item.active {
+    color: rgb(194, 189, 189);
+}
+
+nav .navbar-toggler-icon {
+  background-image: url("../img/resta.jpg");
+}
+
+#header {
+    background: url("../img/label.jpg") ;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+#header .cover {
+    margin-top: 3rem;
+    padding: 3rem;
+    
+}
+p .parrafo{
+    text-align: end;
+}
+
+#header h1,
+#header p {
+    text-shadow: 2px 2px 2px rgb(99, 95, 95);
+}
+
+#menu {
+    margin: 3rem;
+}
+
+#menu h2 {
+    color: rgb(24, 24, 25);
+}
+
+#menu .card {
+    text-align: left;
+    height: 480px;
+    box-shadow: 5px 7px 5px 0px black;
+}
+
+#menu .card .card-title {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#menu .card .card-footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.8rem;
+}
+
+#menu .card .card-footer .fas {
+    color: #DAA520;
+    margin-right: 0.5rem;
+}
+
+#nosotros {
+    background: url("../img/asader.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+
+#nosotros .cover {
+    margin-top: 3rem;
+    padding: 3rem;
+    
+}
+
+#nosotros .cover .description {
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 2%;
+    width: 90%;
+    border-radius: 0.5em;
+    margin: 0 auto;
+}
+
+#contacto {
+    background-color: rgb(24, 24, 25);
+    width: 100%;
+    color: #fff;
+    padding: 3rem 3rem 0.3rem 3rem;
+}
+
+#contacto .fas {
+    margin-right: 0.5rem;
+    color: red;
+}
+
+#contacto .fab {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: red;
+}
+
+#contacto .fab:hover {
+    color: red;
+    cursor: pointer;
+}
+
+section h2,
+footer h2 {
+    color: red;
+}
+
+footer{
+
+    font-size: 12px;
+}
+
+footer .copy {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+section .card {
+    margin: 1rem 0 1rem 0;
+}
+
+.bt-call-to-action {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+    font-size: 1.3rem;
+    border-radius: 5em;
+    padding: 0.5em;
+    width: 10rem;
+}
+
+.bt-call-to-action:hover {
+    background-color: red;
+    border-color: #fff;
+}    
+
+a {
+     color: #fff;  
+}
+
+a:hover {
+    color: red;
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+#titulo h1 .tit{
+color: red;
+}
+
+
+button:focus {
+    outline:0;     
+    box-shadow: none !important;
+}

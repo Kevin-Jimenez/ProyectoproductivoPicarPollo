@@ -1,0 +1,193 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    position: static;
+    font-size: 50px;
+   
+}
+
+
+nav {
+    background-color: black;
+    position: fixed !important;
+    top: 0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: red !important;
+    box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+    text-shadow: 2px 2px 2px rgba(219, 219, 219, 0.3);
+}
+
+nav .navbar-brand {
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    color:red;
+    font-family: garamond; src: url('garamond-oblique.ttf'); font-style:oblique;
+}
+
+nav .navbar-toggler-icon {
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 0.2rem;
+}
+
+nav .navbar-nav .nav-item.active {
+    color: white;
+}
+
+nav .navbar-toggler-icon {
+  background-image: url("../img/resta.jpg");
+}
+
+#header {
+    background: url("../img/label.jpg") ;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+#header .cover {
+    margin-top: 3rem;
+    padding: 3rem;
+    
+}
+p .parrafo{
+    text-align: end;
+}
+
+#header h1,
+#header p {
+    text-shadow: 2px 2px 2px rgb(99, 95, 95);
+}
+
+#menu {
+    margin: 3rem;
+}
+
+#menu h2 {
+    color: rgb(24, 24, 25);
+}
+
+#menu .card {
+    text-align: left;
+    height: 480px;
+}
+
+#menu .card .card-title {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#menu .card .card-footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.8rem;
+}
+
+#menu .card .card-footer .fas {
+    color: #DAA520;
+    margin-right: 0.5rem;
+}
+
+#nosotros {
+    background: url("../img/asader.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+
+#nosotros .cover {
+    margin-top: 3rem;
+    padding: 3rem;
+    
+}
+
+#nosotros .cover .description {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5em;
+    width: 70%;
+    border-radius: 0.3em;
+    margin: 0 auto;
+}
+
+#contacto {
+    background-color: rgb(24, 24, 25);
+    width: 100%;
+    color: #fff;
+    padding: 3rem 3rem 0.3rem 3rem;
+}
+
+#contacto .fas {
+    margin-right: 0.5rem;
+    color: red;
+}
+
+#contacto .fab {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: red;
+}
+
+#contacto .fab:hover {
+    color: red;
+    cursor: pointer;
+}
+
+section h2,
+footer h2 {
+    margin-bottom: 1rem;
+    color: red;
+}
+
+footer .copy {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+section .card {
+    margin: 1rem 0 1rem 0;
+}
+
+.bt-call-to-action {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+    font-size: 1.3rem;
+    border-radius: 5em;
+    padding: 0.5em;
+    width: 10rem;
+}
+
+.bt-call-to-action:hover {
+    background-color: red;
+    border-color: #fff;
+}    
+
+a {
+     color: red;
+     
+}
+
+a:hover {
+    color: red;
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+#titulo h1 .tit{
+color: red;
+}
+
+
+button:focus {
+    outline:0;     
+    box-shadow: none !important;
+}

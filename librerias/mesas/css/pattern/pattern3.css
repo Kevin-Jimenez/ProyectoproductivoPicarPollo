@@ -1,0 +1,8 @@
+body{
+	background-image:url(../../images/patern/shattered-island.gif);
+	background-repeat:repeat;
+	}
+
+div[data-target] > div {
+	background: url(../../images/patern/shattered-island.gif) repeat;
+	}	
